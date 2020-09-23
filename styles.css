@@ -247,17 +247,17 @@ img {
 }
 
 .hello{
-  font-size: 3.5rem;
+  font-size: 3rem;
   font-weight: 700;
 }
 
 .iam{
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 200;
 }
 
 .home__title-color {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 400;
 }
 
@@ -270,7 +270,7 @@ img {
   width: max-content;
   margin-bottom: var(--mb-2);
   margin-left: 1.5rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: white;
 }
 
@@ -460,6 +460,16 @@ img {
     height: 100vh;
   }
 
+  .iam{
+    font-size: 3rem;
+    font-weight: 200;
+  }
+  
+  .home__title-color {
+    font-size: 3rem;
+    font-weight: 400;
+  }
+
   .home__social {
     padding-top: 0;
     padding-bottom: 2.5rem;
@@ -469,7 +479,7 @@ img {
 
   .home__social-icon {
     margin-bottom: 0;
-    margin-right: var(--mb-4);
+    margin-right: .5rem;
   }
 
   .home__img {
