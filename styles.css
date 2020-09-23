@@ -269,7 +269,7 @@ img {
 .home__social-icon {
   width: max-content;
   margin-bottom: var(--mb-2);
-  margin-left: 1.5rem;
+  padding: 1rem;
   font-size: 1.2rem;
   color: white;
 }
@@ -400,17 +400,19 @@ img {
 
 .footer__title {
   font-size: 2rem;
-  margin-bottom: var(--mb-4);
+  margin-bottom: 1rem;
 }
 
 .footer__social {
-  margin-bottom: var(--mb-4);
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
 }
 
 .footer__icon {
   font-size: 1.2rem;
   color: #fff;
-  margin: var(--mb-2);
+  padding: var(--mb-2);
 }
 
 /* Media queries*/
