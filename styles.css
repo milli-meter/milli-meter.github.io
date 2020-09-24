@@ -217,15 +217,12 @@ img {
 
 /* Home */
 
-.home {
-  height: 100%;
-}
 
 .home__background {
   background: linear-gradient(
       45deg,
-      rgba(0, 0, 0, 0.6),
-      rgba(0, 0, 0, 0.3)
+      rgba(0, 0, 0, .7),
+      rgba(0, 0, 0, .5)
     ),
     url("./img/bg.jpg");
   background-size: cover;
@@ -384,8 +381,8 @@ img {
   width: 65%;
 }
 
-.skills__ux {
-  width: 85%;
+.skills__python {
+  width: 45%;
 }
 
 /* Footer */

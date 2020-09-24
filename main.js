@@ -19,7 +19,6 @@ AOS.init({
   mirror: true, // whether elements should animate out while scrolling past them
 });
 
-
 const showMenu = (toggleId, navId) => {
   const toggle = document.getElementById(toggleId),
     nav = document.getElementById(navId);
